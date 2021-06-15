@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class Ülesanne1 {
+  public static void main(String[] args) {
+   Scanner readme = new Scanner(System.in);
+   System.out.println("Sisesta 2 numbrit, mida tahad omavahel liita:");
+   double a, b, c;
+   a = readme.nextDouble();
+   b = readme.nextDouble();
+   c = a + b;
+   System.out.println("Total = " + c);
+  }
+}
