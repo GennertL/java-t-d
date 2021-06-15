@@ -1,0 +1,6 @@
+public static void yl10() {
+System.out.println("Ülesanne 10");
+for (int i=1; i<67; i++) {
+            System.out.print(i + " ");
+            if (i % 5 == 0)
+                System.out.print("\n");
